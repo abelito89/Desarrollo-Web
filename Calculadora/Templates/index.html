@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h2>Calculadora</h2>
+    <form action='/seleccionar_operacion' method="post">
+        <li>
+            <label>Entre el primer valor</label>
+            <input type="number" id="valor1" name="valor1">
+        </li>
+        <li>
+            <label>Entre el segundo valor</label>
+            <input type="number" id="valor2" name="valor2">
+        </li>
+        <input type="submit" name="operacion" value="sumar">        
+        <input type="submit" name="operacion" value="restar">        
+        <input type="submit" name="operacion" value="multiplicar">       
+        <input type="submit" name="operacion" value="dividir">
+
+    </form>
+
+    
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Menú</h2>
+    <form action="/submit_menu" method="post">
+        <ul>
+            {% for comida, precio in precios.items() %}
+                <li> {{comida}}: {{precio}} </li>
+            {% endfor %}
+
+        </ul>
+        <ul>
+            <li><label>Elija entrante</label>
+                <select id="entrante" name="entrante">
+                    <option value="-">-</option>
+                    <option value="Dados de queso">Dados de Queso</option>
+                    <option value="Coctel de frutas">Coctel de Frutas</option>
+                    <option value="Crema de queso">Dados de Queso</option>
+                </select>
+            </li>
+            <li><label>Elija el plato principal</label>
+                <select id="plato_principal" name="plato_principal">
+                    <option value="-">-</option>
+                    <option value="Cerdo a la plancha">Cerdo a la plancha </option>
+                    <option value="Cerdo al carbón">Cerdo al carbón</option>
+                    <option value="Espaguettis">Espaguettis</option>
+                </select>
+            </li>
+            <li><label>Elija el postre</label>
+                <select id="postre" name="postre">
+                    <option value="-">-</option>
+                    <option value="Copa lolita">Copa Lolita</option>
+                    <option value="Brownie">Brownie</option>
+                    <option value="Tartaleta">Tartaleta</option>
+                </select>
+            </li>
+        </ul>
+        <input type="submit" value="Aceptar menú">
+       
+    </form>
+</body>
+</html>

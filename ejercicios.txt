@@ -1,0 +1,17 @@
+Ejercicio 1: Crea un formulario que pida al usuario su nombre, edad y correo electrónico, y luego muestra un mensaje de bienvenida con esos datos. Puedes usar el método Form de FastAPI para recibir los datos del formulario, y el método TemplateResponse para renderizar una plantilla de jinja2 con el mensaje. Puedes inspirarte en este ejemplo.
+Ejercicio 2: Crea un formulario que permita al usuario elegir entre varias opciones de un menú, como entrante, plato principal y postre. Luego, muestra el precio total del pedido y los ingredientes de cada plato. Puedes usar los elementos <select> y <option> de html para crear el menú, y una función de FastAPI para calcular el precio y los ingredientes. Puedes ver un ejemplo similar de un formulario con múltiples opciones.
+Ejercicio 3: Crea un formulario que permita al usuario subir una imagen y luego la muestre en la misma página. Puedes usar el elemento <input type="file"> de html para crear el botón de subir, y el método File de FastAPI para recibir el archivo. Luego, puedes usar el método HTMLResponse para devolver una respuesta html con la imagen incrustada. Puedes ver un tutorial de cómo crear una página dinámica con jinja2 y FastAPI.
+
+Calculadora: Crea una calculadora básica que permita al usuario ingresar dos números y seleccionar una operación (suma, resta, multiplicación o división). Luego, muestra el resultado de la operación.
+
+Sistema de votación: Crea un sistema de votación que permita al usuario seleccionar su candidato preferido de una lista. Luego, muestra el total de votos para cada candidato.
+
+Sistema de comentarios: Crea un sistema de comentarios que permita a los usuarios escribir un comentario y ver todos los comentarios existentes.
+
+Generador de citas: Crea un generador de citas que permita a los usuarios seleccionar una categoría (por ejemplo, amor, amistad, motivación) y luego muestre una cita aleatoria de esa categoría.
+
+Sistema de reservas: Crea un sistema de reservas para un restaurante que permita a los usuarios seleccionar una fecha, hora y número de personas. Luego, muestra si la reserva es posible en función de la disponibilidad del restaurante.
+
+Juego de preguntas y respuestas: Crea un juego de preguntas y respuestas que muestre una pregunta al usuario y le permita seleccionar una respuesta de varias opciones. Luego, indica si la respuesta seleccionada es correcta o incorrecta.
+
+Tienda en línea: Crea una tienda en línea básica que muestre varios productos y permita a los usuarios agregar productos a su carrito de compras. Luego, muestra el total del carrito de compras.
